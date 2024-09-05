@@ -1,0 +1,38 @@
+
+tr{
+   height: 60px;
+   text-align: center;
+   th{
+      color: white !important;
+      cursor: pointer;
+      position: relative;
+      transform: translateY(-20%);
+      border: 1px solid black;
+   }
+}
+tbody{
+   cursor: pointer;
+}
+thead.bgthed{
+background-color: rgba(49, 89, 81, 0.9) !important;
+}
+.table{
+   --bs-table-bg: unset !important;
+}
+
+td .dropdown-toggle{
+   background-color: rgba(49, 89, 81, 0.9) !important ;
+   border: 1px solid rgba(49, 89, 81, 0.9) !important;
+}
+
+.searchbar-input{
+   width: 200px;
+   height:32px ;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid gray;
+   padding-left: 10px;
+}
+.searchbar-input::placeholder{
+co
+}
